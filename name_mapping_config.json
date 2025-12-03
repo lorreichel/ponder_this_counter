@@ -1,0 +1,568 @@
+{
+  "description": "Name mapping configuration for Ponder This solvers",
+  "instructions": "Review and edit this mapping. The key is the variant name, the value is the canonical name.",
+  "name_mapping": {
+    "Daniel Biti": "Daniel Bitin",
+    "Radu Alexandru Todor": "Radu-Alexandru Todor",
+    "Andreas Razen & Radu-Alexandru Todor": "Radu-Alexandru Todor",
+    "Radu-Alexandru Todor & Andreas Razen": "Radu-Alexandru Todor",
+    "Andreas Razen and Radu-Alexandru Todor": "Radu-Alexandru Todor",
+    "Harald Boegeholz": "Harald Bögeholz",
+    "Nyles Heis": "Nyles Heise",
+    "Lorenz Reiche": "Lorenz Reichel",
+    "Joseph DiVincentis": "Joseph DeVincentis",
+    "Joseph Devincentis": "Joseph DeVincentis",
+    "Joe DeVincentis": "Joseph DeVincentis",
+    "Joseph DeVincentris": "Joseph DeVincentis",
+    "oseph DeVincentis": "Joseph DeVincentis",
+    "AndreasStiller": "Andreas Stiller",
+    "Stephane Higueret": "Stéphane Higueret",
+    "téphane Higueret": "Stéphane Higueret",
+    "Gary M Gerken": "Gary M. Gerken",
+    "Gary M. Gerkin": "Gary M. Gerken",
+    "Gary M Gerkin": "Gary M. Gerken",
+    "Gary Gerken": "Gary M. Gerken",
+    "Albert Stadle": "Albert Stadler",
+    "Li li": "Li Li",
+    "Victor A. Chang": "Victor Chang",
+    "ictor Chang": "Victor Chang",
+    "Victor A Chang": "Victor Chang",
+    "Alex Fleischer &": "Alex Fleischer",
+    "mathias schenker": "Mathias Schenker",
+    "Chuck Carrol": "Chuck Carroll",
+    "Armin Krauß": "Armin Krauss",
+    "Shouky Dan and Tamir Ganor": "Shouky Dan & Tamir Ganor",
+    "Shuky Dan & Tamir Ganor": "Shouky Dan & Tamir Ganor",
+    "Shouly Dan & Tamir Ganor": "Shouky Dan & Tamir Ganor",
+    "David F. H. Dunkley": "David F.H. Dunkley",
+    "David F H Dunkley": "David F.H. Dunkley",
+    "Pete Gerritson": "Peter Gerritson",
+    "Lachezar Hristov": "Latchezar Christov",
+    "Lachezar Christov": "Latchezar Christov",
+    "Franciraldo Cavalcante Jr": "Franciraldo Cavalcante",
+    "FabioMichele Negroni": "Fabio Michele Negroni",
+    "Fabio Michele negroni": "Fabio Michele Negroni",
+    "PaulRevenant": "Paul Revenant",
+    "John G Fletcher": "John G. Fletcher",
+    "John Fletcher": "John G. Fletcher",
+    "John G.Fletcher": "John G. Fletcher",
+    "Andea Andenna": "Andrea Andenna",
+    "John Robinson": "John T. Robinson",
+    "John T Robinson": "John T. Robinson",
+    "Arthur Brietman": "Arthur Breitman",
+    "Dario Filatrella": "Fabio Filatrella",
+    "Yanwu He": "Yan-Wu He",
+    "Yan-wu He": "Yan-Wu He",
+    "Erik Wuenstel": "Erik Wünstel",
+    "Sri Mallikarjun J.": "Sri Mallikarjun J",
+    "Sri Mallikarjun": "Sri Mallikarjun J",
+    "Hakan Summakoglu": "Hakan Summakoğlu",
+    "Gale W. Greenlee": "Gale Greenlee",
+    "Dale Greenlee": "Gale Greenlee",
+    "Joaquim N. Carrapa": "Joaquim Neves Carrapa",
+    "Alan Curry": "Alan Murray",
+    "lan Murray": "Alan Murray",
+    "Phil Muhn": "Phil Muhm",
+    "Alex Wagne": "Alex Wagner",
+    "Mark Pervovskiy (": "Mark Pervovskiy",
+    "Tomas Sirgedas": "Tom Sirgedas",
+    "om Sirgedas": "Tom Sirgedas",
+    "ladimir Sedach": "Vladimir Sedach",
+    "Vladamir Sedach": "Vladimir Sedach",
+    "Vladimir V. Sedach": "Vladimir Sedach",
+    "Lorenzo Gianferrari": "Lorenzo Gianferrari Pini",
+    "Ming-wei Wang": "Ming-Wei Wang",
+    "Manish C. Tayal": "Manish C Tayal",
+    "Lawrence T Hoff": "Lawrence T. Hoff",
+    "HP Ravikiran": "H.P. Ravikiran",
+    "ILan Algor": "Ilan Algor",
+    "Shmuel spiegel": "Shmuel Spiegel",
+    "Jose F. Martinez": "Jose F Martinez",
+    "Jonathan A. Wildstrom": "Jonathan A Wildstrom",
+    "Sorin OSTAFIEV": "Sorin Ostafiev",
+    "liuwei": "Liuwei",
+    "Jan Van Delden": "Jan van Delden",
+    "itsik horovitz": "Itsik Horovitz",
+    ">Arun Sivaramakrishnan": "Arun Sivaramakrishnan",
+    "Alexis G Megas": "Alexis G. Megas",
+    "Joaquim carrapa": "Joaquim Carrapa",
+    "Dan FLORESCU": "Dan Florescu",
+    "John V. Sichi": "John V Sichi",
+    "Nikhil sahasrabudhe": "Nikhil Sahasrabudhe",
+    "Kapil K. Jain": "Kapil K Jain",
+    "Hagen Von Eitzen": "Hagen von Eitzen",
+    "Soonho you": "Soonho You",
+    "Karl D'SOUZA": "Karl D'Souza",
+    "Karl Dsouza": "Karl D'Souza",
+    "Karl D’Souza": "Karl D'Souza",
+    "Daniel A. Clymer": "Daniel A Clymer",
+    "Joseph R. Chadwick": "Joseph R Chadwick",
+    "Donald T Dodson": "Donald T. Dodson",
+    "ariel flat": "Ariel Flat",
+    "R Nandakumar": "R. Nandakumar",
+    "L. J. Zigerell": "L. J Zigerell",
+    "Iqstar": "IQSTAR",
+    "Kalyana Chakravarthy S": "Kalyana Chakravarthy S.",
+    "Part 1": "Part 1:",
+    "Part 2:": "Part 2",
+    "Patrick J LoPresti": "Patrick J. LoPresti",
+    "Tomas G Rokicki": "Tomas G. Rokicki",
+    "Subramanian C A": "Subramanian C. A",
+    "Anneke van Steirteghem": "Anneke Van Steirteghem",
+    "Karl D’Souza & Cristian Ianculescu": "Karl D'Souza & Cristian Ianculescu",
+    "Aditya K. Prasad": "Aditya K Prasad",
+    "Aman_Cc": "aman_cc",
+    "Dion K. Harmon": "Dion K Harmon",
+    "Forrest Mcclellan": "Forrest McClellan",
+    "Mark J. Murphy": "Mark J Murphy",
+    "Guang-Zhong Sun": "Guangzhong Sun",
+    "GuangZhong Sun": "Guangzhong Sun",
+    "Balakrishnan V.": "Balakrishnan V",
+    "V. Balakrishnan": "V Balakrishnan",
+    "Kerry M Soileau": "Kerry M. Soileau",
+    "Justin T. Miller": "Justin T Miller",
+    "Vernon W Miller": "Vernon W. Miller",
+    "William C Hasenplaugh": "William C. Hasenplaugh",
+    "lukas saul": "Lukas Saul",
+    "zhou guang": "Zhou Guang",
+    "David P Stigant": "David P. Stigant",
+    "Pushkar S. Joglekar": "Pushkar S Joglekar",
+    "D. Adrian Tanner": "D Adrian Tanner",
+    "Anthony P. Jones": "Anthony P Jones",
+    "Maris van Sprang": "Maris Van Sprang",
+    "Jason L": "Jason L.",
+    "pulsar (h.nathen)": "Pulsar (H.Nathen)",
+    "L. J. Zigerell Jr.": "L J Zigerell Jr",
+    "Michael D. Moffitt": "Michael D Moffitt",
+    "GuangDa HuZhang": "Guangda Huzhang",
+    "J. Noble Pendergrass": "J Noble Pendergrass",
+    "Andrew D. Kidd": "Andrew D Kidd",
+    "M Zecevic": "M. Zecevic",
+    "Siddharth S.": "Siddharth S",
+    "Robert C Sarvis": "Robert C. Sarvis",
+    "Wu ChengYuan": "Wu Chengyuan",
+    "Manoj Vedvistara": "Manoj vedvistara",
+    "Duane A Bailey": "Duane A. Bailey",
+    "Lorenzo gianferrari pini & Radu-Alexandru Todor": "Radu-Alexandru Todor",
+    "Lorenzo Gianferrari Pini & Radu-Alexandru Todor": "Radu-Alexandru Todor",
+    "SeongWoo Hong": "Seongwoo Hong",
+    "Jay R Joshi": "Jay R. Joshi",
+    "John van Ryneveld": "John Van Ryneveld",
+    "Michael D. Schuresko": "Michael D Schuresko",
+    "Govind A. N.": "Govind A N",
+    "Kyoung A Lee": "Kyoung A. Lee",
+    "YanwuHe": "YanWu-He",
+    "luke hsieh": "Luke Hsieh",
+    "Nadir S": "Nadir S.",
+    "Alexander Shay Geller​": "Alexander Shay Geller",
+    "Jackie Byeongyeon Ryu": "Jackie ByeongYeon Ryu",
+    "George W. Barnett": "George W Barnett",
+    "Michael J Swart": "Michael J. Swart",
+    "Lakshman inkulu": "Lakshman Inkulu",
+    "Sai KISHORE Datti": "Sai Kishore Datti",
+    "Sasi teja Alluri": "Sasi Teja Alluri",
+    "Sasi teja alluri": "Sasi Teja Alluri",
+    "Xiuhan Wang": "Xiu-Han Wang",
+    "Ksg Sarma": "K.S.G. Sarma",
+    "Ethan EJ Watkins": "Ethan (EJ) Watkins",
+    "Thomas HUET": "Thomas Huet",
+    "andy greig": "Andy Greig",
+    "Yusuf Attarbashi": "Yusuf AttarBashi",
+    "LI WANG": "Li Wang",
+    "Divy soni": "Divy Soni"
+  },
+  "similar_groups": [
+    [
+      "Daniel Bitin",
+      "Daniel Biti"
+    ],
+    [
+      "Radu-Alexandru Todor",
+      "Radu Alexandru Todor"
+    ],
+    [
+      "Harald Bögeholz",
+      "Harald Boegeholz"
+    ],
+    [
+      "Nyles Heise",
+      "Nyles Heis"
+    ],
+    [
+      "Lorenz Reichel",
+      "Lorenz Reiche"
+    ],
+    [
+      "Joseph DeVincentis",
+      "Joseph DiVincentis",
+      "Joseph Devincentis",
+      "Joe DeVincentis",
+      "Joseph DeVincentris",
+      "oseph DeVincentis"
+    ],
+    [
+      "Andreas Stiller",
+      "AndreasStiller",
+      "Andreas Spillner"
+    ],
+    [
+      "Stéphane Higueret",
+      "Stephane Higueret",
+      "téphane Higueret"
+    ],
+    [
+      "Gary M. Gerken",
+      "Gary M Gerken",
+      "Gary M. Gerkin",
+      "Gary M Gerkin",
+      "Gary Gerken"
+    ],
+    [
+      "Albert Stadler",
+      "Albert Stadle"
+    ],
+    [
+      "Li Li",
+      "Li li"
+    ],
+    [
+      "Victor Chang",
+      "Victor A. Chang",
+      "ictor Chang",
+      "Victor A Chang"
+    ],
+    [
+      "Alex Fleischer",
+      "Alex Fleischer &"
+    ],
+    [
+      "Mathias Schenker",
+      "mathias schenker"
+    ],
+    [
+      "Chuck Carroll",
+      "Chuck Carrol"
+    ],
+    [
+      "Armin Krauss",
+      "Armin Krauß"
+    ],
+    [
+      "Shouky Dan & Tamir Ganor",
+      "Shouky Dan and Tamir Ganor",
+      "Shuky Dan & Tamir Ganor",
+      "Shouly Dan & Tamir Ganor"
+    ],
+    [
+      "David F.H. Dunkley",
+      "David F. H. Dunkley",
+      "David F H Dunkley"
+    ],
+    [
+      "Peter Gerritson",
+      "Pete Gerritson"
+    ],
+    [
+      "Latchezar Christov",
+      "Lachezar Hristov",
+      "Lachezar Christov"
+    ],
+    [
+      "Franciraldo Cavalcante",
+      "Franciraldo Cavalcante Jr"
+    ],
+    [
+      "Fabio Michele Negroni",
+      "FabioMichele Negroni",
+      "Fabio Michele negroni"
+    ],
+    [
+      "Paul Revenant",
+      "PaulRevenant"
+    ],
+    [
+      "John G. Fletcher",
+      "John G Fletcher",
+      "John Fletcher",
+      "John G.Fletcher"
+    ],
+    [
+      "Andrea Andenna",
+      "Andea Andenna"
+    ],
+    [
+      "John T. Robinson",
+      "John Robinson",
+      "John T Robinson"
+    ],
+    [
+      "Arthur Breitman",
+      "Arthur Brietman"
+    ],
+    [
+      "Fabio Filatrella",
+      "Dario Filatrella"
+    ],
+    [
+      "Yan-Wu He",
+      "Yanwu He",
+      "Yan-wu He"
+    ],
+    [
+      "Erik Wünstel",
+      "Erik Wuenstel"
+    ],
+    [
+      "Sri Mallikarjun J",
+      "Sri Mallikarjun J.",
+      "Sri Mallikarjun"
+    ],
+    [
+      "Hakan Summakoğlu",
+      "Hakan Summakoglu"
+    ],
+    [
+      "Gale Greenlee",
+      "Gale W. Greenlee",
+      "Dale Greenlee"
+    ],
+    [
+      "Joaquim Neves Carrapa",
+      "Joaquim N. Carrapa"
+    ],
+    [
+      "Alan Murray",
+      "Alan Curry",
+      "lan Murray"
+    ],
+    [
+      "Phil Muhm",
+      "Phil Muhn"
+    ],
+    [
+      "Alex Wagner",
+      "Alex Wagne"
+    ],
+    [
+      "Mark Pervovskiy",
+      "Mark Pervovskiy ("
+    ],
+    [
+      "Tom Sirgedas",
+      "Tomas Sirgedas",
+      "om Sirgedas"
+    ],
+    [
+      "Vladimir Sedach",
+      "ladimir Sedach",
+      "Vladamir Sedach",
+      "Vladimir V. Sedach"
+    ],
+    [
+      "Lorenzo Gianferrari Pini",
+      "Lorenzo Gianferrari"
+    ]
+  ],
+  "top_solvers_preview": [
+    {
+      "name": "Daniel Bitin",
+      "count": 207
+    },
+    {
+      "name": "Dan Dima",
+      "count": 186
+    },
+    {
+      "name": "David Greer",
+      "count": 160
+    },
+    {
+      "name": "Motty Porat",
+      "count": 143
+    },
+    {
+      "name": "Radu-Alexandru Todor",
+      "count": 141
+    },
+    {
+      "name": "Harald Bögeholz",
+      "count": 133
+    },
+    {
+      "name": "Clive Tong",
+      "count": 132
+    },
+    {
+      "name": "Nyles Heise",
+      "count": 131
+    },
+    {
+      "name": "Joseph DeVincentis",
+      "count": 127
+    },
+    {
+      "name": "Kang Jin Cho",
+      "count": 123
+    },
+    {
+      "name": "Daniel Chong Jyh Tar",
+      "count": 122
+    },
+    {
+      "name": "Lorenz Reichel",
+      "count": 121
+    },
+    {
+      "name": "Todd Will",
+      "count": 118
+    },
+    {
+      "name": "Andreas Stiller",
+      "count": 117
+    },
+    {
+      "name": "Dieter Beckerle",
+      "count": 116
+    },
+    {
+      "name": "Gary M. Gerken",
+      "count": 111
+    },
+    {
+      "name": "Reiner Martin",
+      "count": 111
+    },
+    {
+      "name": "Amos Guler",
+      "count": 108
+    },
+    {
+      "name": "Chris Shannon",
+      "count": 107
+    },
+    {
+      "name": "Liubing Yu",
+      "count": 103
+    },
+    {
+      "name": "Bert Dobbelaere",
+      "count": 103
+    },
+    {
+      "name": "Alper Halbutogullari",
+      "count": 103
+    },
+    {
+      "name": "Stéphane Higueret",
+      "count": 101
+    },
+    {
+      "name": "John Tromp",
+      "count": 97
+    },
+    {
+      "name": "David Friedman",
+      "count": 91
+    },
+    {
+      "name": "Albert Stadler",
+      "count": 91
+    },
+    {
+      "name": "Vladimir Volevich",
+      "count": 91
+    },
+    {
+      "name": "Victor Chang",
+      "count": 88
+    },
+    {
+      "name": "Li Li",
+      "count": 88
+    },
+    {
+      "name": "Shirish Chinchalkar",
+      "count": 86
+    },
+    {
+      "name": "Bertram Felgenhauer",
+      "count": 85
+    },
+    {
+      "name": "Florian Fischer",
+      "count": 84
+    },
+    {
+      "name": "Alex Fleischer",
+      "count": 84
+    },
+    {
+      "name": "Armin Krauss",
+      "count": 83
+    },
+    {
+      "name": "John G. Fletcher",
+      "count": 78
+    },
+    {
+      "name": "James Dow Allen",
+      "count": 77
+    },
+    {
+      "name": "Latchezar Christov",
+      "count": 77
+    },
+    {
+      "name": "Marco Bellocchi",
+      "count": 75
+    },
+    {
+      "name": "Mathias Schenker",
+      "count": 74
+    },
+    {
+      "name": "Shouky Dan & Tamir Ganor",
+      "count": 73
+    },
+    {
+      "name": "Chuck Carroll",
+      "count": 71
+    },
+    {
+      "name": "Michael Liepelt",
+      "count": 71
+    },
+    {
+      "name": "Graham Hemsley",
+      "count": 71
+    },
+    {
+      "name": "David F.H. Dunkley",
+      "count": 71
+    },
+    {
+      "name": "Arthur Vause",
+      "count": 69
+    },
+    {
+      "name": "Franciraldo Cavalcante",
+      "count": 67
+    },
+    {
+      "name": "Hakan Summakoğlu",
+      "count": 67
+    },
+    {
+      "name": "Oscar Volpatti",
+      "count": 67
+    },
+    {
+      "name": "Sanandan Swaminathan",
+      "count": 67
+    },
+    {
+      "name": "Peter Gerritson",
+      "count": 66
+    }
+  ]
+}
