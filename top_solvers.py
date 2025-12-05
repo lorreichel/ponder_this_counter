@@ -106,7 +106,7 @@ def analyze_solvers(data, name_mapping, cutoff_date=None):
     return solver_counts, solver_months
 
 def generate_report(solver_counts, solver_months, top_n=50, title="Top Solvers"):
-    """Generate a formatted report of top solvers."""
+    """Generate a formatted report of top solvers with proper tied ranking."""
     print(f"\n{'='*70}")
     print(f"{title}")
     print(f"{'='*70}\n")
@@ -114,8 +114,21 @@ def generate_report(solver_counts, solver_months, top_n=50, title="Top Solvers")
     print(f"{'Rank':<6} {'Name':<40} {'Puzzles Solved':>12}")
     print(f"{'-'*70}")
 
-    for i, (name, count) in enumerate(solver_counts.most_common(top_n), 1):
-        print(f"{i:<6} {name:<40} {count:>12}")
+    top_solvers = solver_counts.most_common(top_n)
+    current_rank = 1
+
+    for i, (name, count) in enumerate(top_solvers):
+        # Update rank only if count is different from previous
+        if i > 0 and top_solvers[i-1][1] != count:
+            current_rank = i + 1
+
+        # Handle Unicode encoding issues on Windows
+        try:
+            print(f"{current_rank:<6} {name:<40} {count:>12}")
+        except UnicodeEncodeError:
+            # Replace problematic characters with ASCII equivalents
+            name_safe = name.encode('ascii', 'replace').decode('ascii')
+            print(f"{current_rank:<6} {name_safe:<40} {count:>12}")
 
     print(f"{'-'*70}")
     print(f"Total unique solvers: {len(solver_counts)}")
@@ -165,20 +178,22 @@ def main():
         title="Top Solvers (Through November 2025)"
     )
 
+    # Helper function to assign proper tied ranks
+    def assign_ranks(solver_list):
+        """Assign ranks with ties handled properly."""
+        ranked = []
+        current_rank = 1
+        for i, (name, count) in enumerate(solver_list):
+            if i > 0 and solver_list[i-1][1] != count:
+                current_rank = i + 1
+            ranked.append({"rank": current_rank, "name": name, "count": count})
+        return ranked
+
     # Save detailed results to JSON
     output = {
-        "all_time": [
-            {"rank": i, "name": name, "count": count}
-            for i, (name, count) in enumerate(solver_counts.most_common(), 1)
-        ],
-        "through_june_2024": [
-            {"rank": i, "name": name, "count": count}
-            for i, (name, count) in enumerate(solver_counts_june_2024.most_common(), 1)
-        ],
-        "through_november_2025": [
-            {"rank": i, "name": name, "count": count}
-            for i, (name, count) in enumerate(solver_counts_nov_2025.most_common(), 1)
-        ]
+        "all_time": assign_ranks(solver_counts.most_common()),
+        "through_june_2024": assign_ranks(solver_counts_june_2024.most_common()),
+        "through_november_2025": assign_ranks(solver_counts_nov_2025.most_common())
     }
 
     with open('top_solvers_results.json', 'w', encoding='utf-8') as f:
